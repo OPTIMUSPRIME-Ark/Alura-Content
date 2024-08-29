@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-image {
+div {
     display: flex;
     justify-content: center;
     align-items: center;
