@@ -4,6 +4,7 @@
 }
 
 #lol {
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
