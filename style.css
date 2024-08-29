@@ -1,9 +1,15 @@
 * {
     margin: 0;
     padding: 0;
+    height: 100vh;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #lol {
-    display: block;
-    margin: 25% auto;
+    height: auto;
 }
