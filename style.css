@@ -5,9 +5,10 @@
 }
 
 #BarraDeNav {
-  width: 100vh;
+  position: relative;
+  width: 100%;
   color: blue;
-  height: 10px;
+  height: 15px;
 }
 
 .image {
