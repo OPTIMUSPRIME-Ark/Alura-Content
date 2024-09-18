@@ -4,6 +4,12 @@
     height: 100vh;
 }
 
+#BarraDeNav {
+  width: 100vh;
+  color: blue;
+  height: 10px;
+}
+
 .image {
   display: flex;
   justify-content: center;
