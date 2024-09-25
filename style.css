@@ -7,16 +7,11 @@
 #BarraDeNav {
   position: absolute;
   width: 100%;
-  height: 25px;
+  height: 35px;
   background-color:black;
 }
 
-.image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#lol {
-    height: auto;
+.Encaminhadores {
+  color: white;
+  text-decoration: none;
 }
