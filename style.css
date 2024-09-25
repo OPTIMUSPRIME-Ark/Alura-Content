@@ -4,6 +4,10 @@
     height: 100vh;
 }
 
+a {
+  text-decoration: none;
+}
+
 #BarraDeNav {
   position: absolute;
   width: 100%;
@@ -13,5 +17,4 @@
 
 .Encaminhadores {
   color: white;
-  text-decoration: none;
 }
