@@ -5,12 +5,13 @@
 }
 
 a {
-  color: white;
+  color: black;
+  background-color: white;
   text-decoration: none;
-  text-align: right;
+  left: 98%;
   /*Margens*/
-  margin: 5px, 0px, 5px, 0px;
-  padding: 0px, 10px;
+  margin:5px;
+  padding: 7px;
 }
 
 #BarraDeNav {
