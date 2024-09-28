@@ -8,7 +8,7 @@ a {
   color: black;
   background-color: white;
   text-decoration: none;
-  left: 98%;
+  border-radius: 5px;
   /*Margens*/
   margin:5px;
   padding: 7px;
@@ -19,4 +19,20 @@ a {
   width: 100%;
   height: 35px;
   background-color:black;
+  text-align: right;
+}
+
+a:hover {
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-name: timingLink;
+}
+
+@keyframes timingLink {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: grey;
+  }
 }
