@@ -6,6 +6,7 @@
 
 a {
   color: black;
+  --backColor:grey;
   background-color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -23,8 +24,9 @@ a {
 }
 
 a:hover {
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-direction: normal;
+  animation-iteration-count: infinite;
   animation-name: timingLink;
 }
 
@@ -32,7 +34,10 @@ a:hover {
   from {
     background-color: white;
   }
+  50% {
+    background-color: var(--backColor);
+  }
   to {
-    background-color: grey;
+    background-color: white;
   }
 }
