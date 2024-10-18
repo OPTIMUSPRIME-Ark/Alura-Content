@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+  background: #475c67;
+}
+
 .Menu_Lateral li a {
   display: inline-block;
   color: black;
@@ -11,7 +15,7 @@
   text-decoration: none;
   border-radius: 12.5px;
   /*Margens*/
-  margin: 0 10px;
+  margin: 0 50px;
   padding: 5px;
 }
 
@@ -22,7 +26,7 @@
 #BarraDeNav {
   display: flex;
   width: 100%;
-  height: 35px;
+  height: 45px;
   background:black;
   align-items: center;
   justify-content: end;
